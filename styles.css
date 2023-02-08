@@ -1,0 +1,172 @@
+body{ 
+	background: linear-gradient(to bottom, #A96930, #CAA07E, #D8B99E);
+}
+
+
+nav{
+	color: #FFFFFF;
+	font-family: Arial;
+	font-size: 141px;
+}
+
+h1{
+	color: #FFFFFF;
+	font-family: Luckiest Guy;
+	font-size: 100px
+	
+}
+h2{
+	color: #FFFFFF;
+	font-family: Luckiest Guy;
+	font-size: 170px;
+	position: relative;
+	left: 80px;
+}
+h3{
+	color: #FFFFFF;
+	font-family: Arial;
+	font-size: 106px;
+}
+
+h4{
+	color: #FFFFFF;
+	font-family: Arial;
+	font-size: 80px;
+	position: relative;
+	left: 100px;
+}
+
+h5{
+	color: #FFFFFF;
+	font-family: Luckiest Guy;
+	font-size: 170px;
+	text-align: center;
+}
+
+h6{
+	color: #FFFFFF;
+	font-family: Arial;
+	font-size: 100px;
+	text-align: center;
+}
+
+p{
+	color: #FFFFFF;
+	font-family: Arial;
+	font-size: 50px;
+	width:1500px;
+	position: relative;
+	left: 80px;
+}
+
+th{
+	color: #FFFFFF;
+	font-family: Arial;
+	font-size: 53px;
+	border-collapse: separate;
+}
+
+.button{
+	color: #FFFFFF;
+	font-family: Arial;
+	font-size: 100px;
+}
+
+.button1{
+	color: #FFFFFF;
+	font-family: Arial;
+	font-size: 50px;
+	text-align: center;
+}
+
+.button2{
+	color: #FFFFFF;
+	font-family: Arial;
+	font-size: 50px;
+	position: relative;
+	top: 20px;
+	left: 1700px;
+}
+
+.slogan{
+	text-align:left;
+	width:1200px;
+	height:1150px;
+	position: relative;
+	top: 220px;
+	left: 80px;
+}
+
+.display{
+	position: absolute;
+	left:1400px;
+}
+
+.display1{
+	width: 100%;
+	height: auto;
+}
+
+.display2{
+	width: 60%;
+	height: auto;
+}
+
+.line{
+	width: 100%;
+	height: auto;
+}
+
+.about{
+	width: 30%;
+	height: auto;
+	position: absolute;
+	right: 100px;
+
+}
+
+div.message{
+	width: 1900px;
+	height: 1000px;
+	border: 3px solid #FFFFFF;
+	position: relative;
+	top: 50px;
+	left: 250px;
+}
+
+.ad1{
+	position: absolute;
+	left: 50px
+}
+
+.ad_1{
+	width: 50%;
+	height: auto;
+}
+
+
+
+.ad_2{
+	width: 40%;
+	height: auto;
+}
+
+.ad3{
+	position: relative;
+	left: 60px	
+}
+
+.ad_3{
+	width: 50%;
+	height: auto;
+}
+
+.product{
+
+	text-align: center;
+	width: 100%;
+	height: auto;
+}
+
+
+
