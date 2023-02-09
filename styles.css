@@ -94,7 +94,6 @@ th{
 	height:1150px;
 	position: relative;
 	top: 220px;
-	left: 80px;
 }
 
 .display{
@@ -134,31 +133,27 @@ div.message{
 	left: 250px;
 }
 
-.ad1{
-	position: absolute;
-	left: 50px
-}
 
 .ad_1{
 	width: 50%;
 	height: auto;
+	position: absolute;
+	left: 50px;
 }
-
-
 
 .ad_2{
 	width: 40%;
 	height: auto;
+	position: relative;
+	left: 1400px;
 }
 
-.ad3{
-	position: relative;
-	left: 60px	
-}
 
 .ad_3{
 	width: 50%;
 	height: auto;
+	position: relative;
+	left: 620px;
 }
 
 .product{
