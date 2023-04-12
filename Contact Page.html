@@ -12,12 +12,12 @@
 <body>
 
 <nav>
-<table cellspacing="100px">
+<table cellspacing="150px">
  <tr>
-    <th><a href="Index.html" class="button">Home</a></th>
+    <th><a href="index.html" class="button">Home</a></th>
     <th><a href="Contact Page.html" class="button">Contacts</a></th>
-	<th><img src="Logo.png" width="511" height="483"></th>
-    <th><a href="Promotion Page.html" class="button">News</a></th>
+	<th><a href="index.html" class="button"><img src="Logo.png" width="256" height="242"></a></th>
+    <th><a href="News.html" class="button">News</a></th>
 	<th><a href="Product Page.html" class="button">Product</a></th>
   </tr>
 </table>
@@ -28,62 +28,72 @@
 
 <h5><span style="color:#3B6C4E;">Con</span>tact <span style="color:#B3272D;">Form</span></h5>
 
-<form action="/action_page.php">
+<form>
+	<table cellspacing="50px">
+<th>QUESTION TYPE:</th>
+</table>
+<br>
+	<tr>
+			<select id="newLocation"> 
+				<option selected>Select a topic</option>
+				<option value="w11_1.html">Bird Slide</option>
+				<option value="w11_2.html">Bird Double-click</option>
+		  </select>
+	</tr>
+	<table cellspacing="50px">
 
-	<table cellspacing="100px">
-	 <tr>
-		<th><label for="question">QUESTION TYPE:</label></th>
-	 </tr>
-	 <tr>
-		<td><input type="text" id="question" name="question" value=""></td>
-	 </tr>
 	</table>
 
-<h4>PERSONAL INFORMATION</h4>
+<h4 style="padding: 10px;">PERSONAL INFORMATION</h4>
 
-
-	<table cellspacing="100px">
+	<table cellspacing="50px">
 	  <tr>
 		<th><label for="fname">FIRST NAME<span style="color:#B3272D;">*</label></span></th>
 		<th><label for="lname">LAST NAME<span style="color:#B3272D;">*</label></span></th>
 		<th><label for="email">EMAIL<span style="color:#B3272D;">*</label></th>
-	  </tr>
-	  <tr>
-		<td><input type="text" id="fname" name="fname" value=""></td>
-		<td><input type="text" id="lname" name="lname" value=""></td>
-		<td><input type="text" id="email" name="email" value=""></td>
-	</table>
-</form> 
- 
- <div class="message"></th>
- <input type="messages" id="messages" name="messages" value="Message"><span style="color:#B3272D;">*</span>
- </div>
-
- <table cellspacing="70px" cellpadding="20px" class= "links">
+	</tr>
 	<tr>
-		<td><a href="Product Page" class="button2">Submit Entry</a></td>
- </table>
+		<td><input type="text" id="fname" name="fname"></td>
+		<td><input type="text" id="lname" name="lname"></td>
+		<td><input type="text" id="email" name="email"></td> 
+	</table>
+ 
+ 	<input type="messages" id="messages" name="messages" class="message">
 
+ 	<table cellspacing="35px" cellpadding="10px">
+		<tr>
+			<td><button type="button" class="button2" onclick="processFrom()">Submit Entry</button></td>
+			
+		</tr>
+ </table>
+</form> 
 	<img src="Red.png" class="line" width="12859" height="748">
  
 </article>
 
-<div class="footer">
+  <!--The footer-->
+<div class ="footer">
+	<table class="info" cellspacing ="50px">
+	<tr> 
+		<td><a href="About Me.html" class="info">About Me</a></td>
+		<td> LEGAL</td> 
+		<td>FOLLOW US</td>
+	</tr>
 
-<table class="info" cellspacing="50px">
-<tr>
-	<td><a href="https://drive.google.com/drive/folders/1goWz0oXWTz0e-NDa-lAuYRxmEBovJ_RL?usp=sharing" class="info" >PORTFOLIO</a></td>
-	<td> LEGAL</td> 
-	<td>FOLLOW US</td>
+	<tr>
+		<td></td>
+		<td><a href="Terms of Use.html" class="info">Terms of Use</td> 
+		<td><a href="https://www.instagram.com/la_cabra_drink/" class="info">Instagram</td>
 </tr>
 
-<tr>
-	<td><a href="#" class="info" >About Me</a></td>
-	<td><a href="#" class="info" >Terms of Use</td> 
-	<td><a href="#" class="info" >Instagram</td>
-</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td><a href="https://www.youtube.com/@la_cabra_" class="info">YouTube</td>
+	</tr>
 
-</table>
+	</table>
+
 </div>
 </body>
 
