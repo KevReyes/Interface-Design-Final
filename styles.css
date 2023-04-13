@@ -164,6 +164,7 @@ th{
 nav{
 	color: #FFFFFF;
 	font-family: Arial;
+	background: transparent;
 }
 
 h1{
@@ -228,6 +229,7 @@ th{
 	color: #FFFFFF;
 	font-family: Arial;
 	font-size: 80px;
+	cursor: pointer;
 }
 
 .button1{
@@ -235,6 +237,7 @@ th{
 	font-family: Arial;
 	font-size: 50px;
 	text-align: center;
+	cursor: pointer;
 }
 
 .button2{
@@ -246,6 +249,7 @@ th{
 	position: relative;
 	top: 20px;
 	left: 1700px;
+	cursor: pointer;
 }
 
 .slogan{
@@ -306,8 +310,7 @@ div.message{
 .ad_3{
 	width: 50%;
 	height: auto;
-	position: relative;
-	left: 620px;
+	justify-content: center;
 }
 
 .product{
@@ -353,12 +356,8 @@ div.message{
 
 .page-content {
     max-width: 700px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Berlin Sans FB Demi", sans-serif;
     margin: 0 auto;
-  }
-   
-  .page-content p {
-    line-height: 2;
   }
   
   .popup-overlay {
@@ -387,8 +386,8 @@ div.message{
     box-shadow: 0 6px 55px -10px rgba(0, 0, 0, 0.7);
     background-image: url("Background _1.png");
     background-size: cover;
-    width: 540px;
-    height: 336px;
+    width: 1080px;
+    height: 672px;
     opacity: 0;
     pointer-events: none;
     transition: all 700ms ease;
@@ -400,32 +399,9 @@ div.message{
     pointer-events: auto;
   }
   
-  .popup-overlay.active .left .bg-1,
-  .popup-overlay.active .left .bg-2 {
-    transform: translateX(0);
-  }
-  
   .popup-container,
   .popup-container * {
     box-sizing: border-box;
-  }
-  
-  .popup-container .left img {
-    position: absolute;
-    bottom: 0;
-  }
-  
-  .popup-container .left .bg-1 {
-    left: 80px;
-    transform: translateX(-20px);
-    transition: all 1700ms ease;
-  }
-  
-  .popup-container .left .bg-2 {
-    left: 64px;
-    transform: translateX(-20px);
-    transition: all 1700ms ease;
-    transition-delay: 600ms;
   }
   
   .popup-container .right {
@@ -438,31 +414,15 @@ div.message{
     position: absolute;
     top: 4px;
     right: 4px;
-    background: #000;
     padding: 2px 6px;
-    font-size: 14px;
+    font-size: 30px;
     cursor: pointer;
   }
   
-  .popup-container .logo {
-    font-size: 13px;
-    color: #febdff;
-    width: 50%;
-    height: auto;
-    text-transform: uppercase;
-    margin-bottom: 4px;
-  }
-  
-  .popup-container h2.popup-heading {
-    font-size: 30px;
-    font-family: Luckiest Guy;
-    text-transform: uppercase;
-    margin: 0;
-  }
   
   .popup-container .visit-button {
     text-decoration: none;
-    font-size: 15px;
+    font-size: 30px;
     font-weight: bold;
     color: #FFFFFF;
     padding: 8px 24px;
@@ -470,36 +430,15 @@ div.message{
     text-align: center;
   }
 
-  .popup-container .hero-image-small {
-    display: none;
-  }
-  
-  @media (max-width: 560px) {
-    .popup-container .left .bg-1,
-    .popup-container .left .bg-2,
-    .popup-container .left .hero-image {
-      display: none;
-    }
-  
     .popup-container .right {
       padding: 16px;
       width: 300px;
       padding-top: 4px;
     }
   
-    .popup-container .left .hero-image-small {
-      display: block;
-      width: 100%;
-    }
-  
-    .popup-container .left .hero-image-small {
-      position: relative;
-    }
-  
     .popup-container {
       padding: 0;
     }
-  }
 
 
 
