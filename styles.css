@@ -164,7 +164,6 @@ th{
 nav{
 	color: #FFFFFF;
 	font-family: Arial;
-	background: transparent;
 }
 
 h1{
@@ -293,24 +292,33 @@ div.message{
 
 
 .ad_1{
-	width: 50%;
-	height: auto;
 	position: absolute;
-	left: 50px;
+	width: clamp(10%, 50%, 100%);
+	height: auto;
+	padding-left: 50px;
+}
+
+.ad2{
+	text-align: right;
+	padding-right: 50px;
+	padding-left: 10px;
 }
 
 .ad_2{
-	width: 40%;
+	width: clamp(10%, 40%, 90%);
 	height: auto;
 	position: relative;
-	left: 500px;
+
 }
 
+.ad3{
+	justify-content: center;
+}
 
 .ad_3{
-	width: 50%;
+    transform: translate(70%, calc(-50% + 50px));
+	width: clamp(10%, 40%, 100%);
 	height: auto;
-	justify-content: center;
 }
 
 .product{
@@ -318,6 +326,9 @@ div.message{
 	width: 100%;
 	height: auto;
 }
+
+
+
 
 
 .footer{
@@ -356,7 +367,7 @@ div.message{
 
 .page-content {
     max-width: 700px;
-    font-family: "Berlin Sans FB Demi", sans-serif;
+    font-family: "Roboto", sans-serif;
     margin: 0 auto;
   }
   
@@ -379,7 +390,7 @@ div.message{
     position: fixed;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, calc(-50% + 50px));
+
     font-family: "Raleway", sans-serif;
     color: #fff;
     padding: 12px 0;
@@ -473,35 +484,6 @@ input{
 	border-style: none none solid none;
 }
 
-.ad_1{
-	position: absolute;
-	width: clamp(10%, 50%, 100%);
-	height: auto;
-}
-
-.ad2{
-	text-align: center;
-}
-
-.ad_2{
-	width: clamp(10%, 40%, 90%);
-	height: auto;
-}
-
-.ad3{
-	justify-content: center;
-}
-.ad_3{
-	justify-content: center;
-	width: clamp(10%, 40%, 100%);
-	height: auto;
-}
-
-.product{
-	text-align: center;
-	width: 100%;
-	height: auto;
-}
 
 .me{
 	color: #FFFFFF;
