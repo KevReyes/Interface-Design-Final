@@ -2,7 +2,7 @@
 
 window.onload = rotate;
 var thePic = 0;
-var arrMyPix = new Array("ady.png", "ad2.png");
+var arrMyPix = new Array("ad.png", "ad2.png");
 
 function rotate(){
     thePic++;
