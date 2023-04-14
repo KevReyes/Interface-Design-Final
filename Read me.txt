@@ -1,0 +1,6 @@
+This is a website of a energy dink company called La Cabra. It contains four main header, "Home", "Contact", "Product", and "News".
+ It also contain a footer that leads to a "About Me", "Terms of Use" page, and two enternal links to Instagram and Youtube.
+
+The website requires that a font to be downloaded Luckiest Guy:
+
+https://www.1001fonts.com/luckiest-guy-font.html
